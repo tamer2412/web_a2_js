@@ -5,7 +5,7 @@ const year = today.getFullYear();
 const date = today.getDate();
 const month = today.getMonth() + 1;
 let time =  today.getHours() + ":" +  today.getMinutes() + ":" +  today.getSeconds();
-document.getElementById("datacheck").innerHTML = 'Year: ' + year + ' <br> Today is: ' + weeks[day] + ' <br> Date: ' + date + ' <br> Month: ' + month + ' <br> Current time is: ' + time;
+document.getElementById("datacheck").innerHTML = '<b>Year: </b>' + year + ' <br> <b>Today is: </b>' + weeks[day] + ' <br><b> Date: </b>' + date + ' <br><b> Month: </b>' + month + ' <br><b> Current time is: </b>' + time;
 
 var dateNow = new Date("02/03/2022");
 var gr = new Date("05/25/2024");//idk correct date of graduation, so i picked default school graduation date
